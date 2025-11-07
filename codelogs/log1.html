@@ -11,8 +11,24 @@
 	<link rel="stylesheet" href="styles.css" media="all">
 	<style>
 		
-       #question {
+       h2 {
             background-color:rgb(203, 202, 202)
+        }
+
+        #codelog1 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto auto;
+            grid-column-gap: 2vw;
+            grid-row-gap: 2vh;
+            grid-template-areas:
+                'h1  h1'
+                'question1  question2'
+                '-  -';
+        }
+
+        #question1 {
+
         }
 
 	</style>
@@ -20,15 +36,17 @@
 </head>
 <body>
 
+    <div id="codelog1">
 	<h1>Code Log 1: HTML Semantic Tags</h1>
-    <main>
-        <section>
-            <h2 id="question">What is the difference between non-semantic and semantic tags in HTML? </h2>
-        </section>
-    
-        <section>
-            <h2 id="question">What are two (or more) benefits of using semantic tags?</h2>
-        </section>
-    </main>
+        <main>
+            <section>
+                <h2 id="question1">What is the difference between non-semantic and semantic tags in HTML? </h2>
+            </section>
+        
+            <section>
+                <h2 id="question2">What are two (or more) benefits of using semantic tags?</h2>
+            </section>
+        </main>
+    </dive>
 </body>
 </html>
