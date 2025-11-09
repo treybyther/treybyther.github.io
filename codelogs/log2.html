@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- meta tags and title -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Code Log 1: HTML Semantic Tags</title>
+
+	<!-- external and internal CSS -->
+	<link rel="stylesheet" href="styles.css" media="all">
+	<style>
+		
+       h2 {
+            background-color:rgb(150, 135, 227)
+        }
+
+        h1 {
+            grid-area: h1;
+            text-align: center;
+        }
+
+        p, ul {
+            background-color: rgb(180, 170, 229)
+        }
+
+        #question1 {
+            grid-area: question1;
+        }
+
+        #question2 {
+            grid-area: question2;
+        }
+
+
+        #codelog1 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            grid-column-gap: 2vw;
+            grid-template-areas:
+                'h1   h1'
+                'question1  question2';
+        }
+	</style>
+
+</head>
+<body>
+
+    <div id="codelog1">
+	<h1>Code Log 1: HTML Semantic Tags</h1>
+    
+            <section id="question1">
+                <h2>The difference between absolute and relative CSS length units </h2>
+                <p>
+                    The main difference between absolute and relative CSS length units, is that an absolute length is one that is 
+                    generally the same size every time. For example, a centimeter is going to be a centimeter and the same amount of 
+                    pixels every time. But, with relative CSS length units, like the name says, they are relative to something, usually
+                    the screen. So something like vh and vw is actually relative to the viewports screen, and it scales it to the size of 
+                    the screen. There is an advantage to using relative CSS length units because it is easier to make sure everything is 
+                    scaled correctly when you are trying to set up your website, and it also makes sure that every screen is able to
+                    view it the same way. 
+                </p>
+            </section>
+        
+            <section id="question2">
+                <h2>Definitions:</h2>
+                    <ul>
+                        <li>px, pt:
+                        </li>
+                        <li>vw, vh:
+                        </li>
+                        <li>vmax, vmin:
+                        </li>
+				    </ul>
+            </section>
+        
+    </div>
+</body>
+</html>
