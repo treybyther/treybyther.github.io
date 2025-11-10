@@ -82,6 +82,7 @@
     #para12 p {
         width: calc(100% * 4 / 6);
         text-align: left;
+        font-size: 2rem;
     }
 
     #para13 p {
@@ -95,4 +96,14 @@
         margin-top: 0;
         text-align: right;
         width: 50%
+    }
+
+    /*************************************/
+    /**********second layout**************/
+    /*************************************/
+
+    body#SecondLayout main {
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: repeat(16, auto)
     }
