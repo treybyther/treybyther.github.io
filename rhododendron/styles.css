@@ -1,0 +1,36 @@
+/* This is the mobile first section */
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    header {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #rhodoPic {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("rhododendron.jpeg");
+        background-size: cover;
+    }
+    
+    #rhodoPic {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #rhodoPic h1 {
+        position: absolute;
+        bottom: 0;
+        left 0;
+    }
+    
