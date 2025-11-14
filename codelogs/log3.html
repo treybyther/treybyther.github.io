@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- meta tags and title -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Code Log 3: CSS Media Queries</title>
+
+	<!-- external and internal CSS -->
+	<link rel="stylesheet" href="styles.css" media="all">
+	<style>
+		
+       h2 {
+            text-transform: uppercase;
+            font-family: "Arial", sans-serif;
+        }
+
+        h1 {
+            grid-area: h1;
+            text-align: center;
+            font-family: "Arial", sans-serif;
+            font-size: 50pt;
+        }
+
+        #question1 {
+            grid-area: question1;
+            background-color: rgb(255, 255, 255);
+            font-family: "Arial", sans-serif;
+            text-align: justify;
+            padding: 20px; 
+        }
+
+        #question2 {
+            grid-area: question2;
+            background-color: rgb(255, 255, 255);
+            font-family: "Arial", sans-serif;
+            text-align: justify;
+            padding: 20px; 
+        }
+
+
+        #codelog1 {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            grid-column-gap: 2vw;
+            grid-template-areas:
+                'h1   h1'
+                'question1  question2';
+        }
+
+        body {
+            background-color: rgb(193, 188, 220);
+        }   
+	</style>
+
+</head>
+<body>
+
+    <div id="codelog1">
+	<h1>Code Log 2: CSS Measuring Units</h1>
+    
+            <section id="question1">
+                <h2>How does a CSS media query work, and why is it useful?</h2>
+                <p>
+                    who knows?
+                </p>
+            </section>
+        
+            <section id="question2">
+                <h2>What "media features" are supported by media queries — such as "orientation" or "max-width" — and what do they do?</h2>
+                    <ul>
+                        <li>number 1
+                        </li>
+                        <li>number 2
+                        </li>
+                        <li>number 3
+                        </li>
+                        <li>number 4
+                        </li>
+				    </ul>
+            </section>
+        
+    </div>
+</body>
+</html>
