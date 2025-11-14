@@ -14,12 +14,6 @@
         width: 100vw;
     }
 
-
-    @font-face {
-        font-family: 'Ostrich Sans';
-        src: url('fonts/ostrich-sans-bold.ttf');
-    }
-
     #rhodoPic {
         position: absolute;
         width: 100vw;
