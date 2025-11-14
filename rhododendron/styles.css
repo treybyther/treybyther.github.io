@@ -20,17 +20,21 @@
         height: 100vh;
         background-image: url("rhododendron.jpeg");
         background-size: cover;
+        background-position: center center;
     }
     
-    #rhodoPic {
+    #rhodoTitle {
         position: absolute;
         width: 100vw;
         height: 100vh;
     }
 
-    #rhodoPic h1 {
+    #rhodoTitle h1 {
         position: absolute;
         bottom: 0;
-        left: 0;
+        left: 1em;
+        color: white;
+        font-size: 2.5em;
+        width: calc(100vw / 2em);
     }
     
