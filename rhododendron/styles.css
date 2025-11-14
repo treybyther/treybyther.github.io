@@ -6,6 +6,7 @@
 
     main {
         background-color: #203013;
+        color: #0b0b09;
     }
 
     body {
@@ -44,6 +45,15 @@
         text-transform: uppercase;
     }
 
+     #sectionOne {
+        background-color: #ffecf4;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: -3vh;
+        margin-bottom: 3vh;
+    }
+
 @media screen and (orientation: landscape) {
 
     #rhodoPic {
@@ -58,5 +68,10 @@
 
     #rhodoTitle h1 {
         width: 45vw;
+    }
+
+    #sectionOne {
+        width: 40vw;
+        margin-left: 0;
     }
 }
