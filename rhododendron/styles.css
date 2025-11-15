@@ -55,6 +55,14 @@
         margin-bottom: 3vh;
     }
 
+    #sectionOne h2 {
+        font-size: 2em;
+    }
+
+    #sectionOne p {
+        font-size: 2em;
+    }
+
 @media screen and (orientation: landscape) {
 
     #rhodoPic {
