@@ -26,12 +26,14 @@
         background-image: url("rhododendron.jpeg");
         background-size: cover;
         background-position: center center;
+        background-attachment: fixed;
     }
     
     #rhodoTitle {
         position: absolute;
         width: 100vw;
-        height: 100vh;
+        height: 20vh;
+        margin-top: 80vh;
     }
 
     #rhodoTitle h1 {
@@ -87,7 +89,7 @@
 @media screen and (orientation: landscape) {
 
     #rhodoPic {
-        width: 50vw;
+        width: 100vw;
     }
 
     #rhodoTitle {
@@ -112,10 +114,11 @@
 
    #sectionTwo {
        float: right;
+       height: 30vh;
    }
 
     #sectionThree {
         width: 55vw;
-        padding-bottom: 6.6vh; 
+        height: 30vh;
     }
 }
