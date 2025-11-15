@@ -45,24 +45,39 @@
         text-transform: uppercase;
     }
 
-     #sectionOne {
+    section {
         background-color: #ffecf4;
         font-family: 'Montserrat', sans-serif;
         width: 90vw;
         margin-left: 5vw;
         margin-right: 5vw;
-        margin-top: -3vh;
-        margin-bottom: 3vh;
-        padding: 3vh;
+        margin-bottom: 10vh;
+        padding: 4vh;
+        padding-bottom: 10vh;
     }
 
-    #sectionOne h1 {
+    section p {
+        font-size: 1.5em;
+    }
+
+    section h1 {
         font-size: 2em;
+        text-transform: uppercase;
     }
 
     #sectionOne p {
-        font-size: 1.5em;
         margin-bottom: -0.7em; 
+    }
+    
+    #sectionFour p {
+        margin-bottom: -0.7em; 
+    }
+
+    #sectionFive {
+        font-size: 0.4em;
+        width: 70vw;
+        margin-left: 15vw;
+        padding: 3em;
     }
 
 @media screen and (orientation: landscape) {
