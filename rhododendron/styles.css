@@ -102,13 +102,13 @@
         width: 45vw;
     }
 
-    #sectionOne {
+    #sectionOne, #sectionFive {
         width: 60vw;
         margin-top: 5vh;
         margin-left: 20vw;
     }
 
-    #sectionTwo, #sectionThree, #sectionFour {
+    #sectionTwo, #sectionFour {
         width: 30vw;
     }
 
