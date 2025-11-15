@@ -53,14 +53,16 @@
         margin-right: 5vw;
         margin-top: -3vh;
         margin-bottom: 3vh;
+        padding: 3vh;
     }
 
-    #sectionOne h2 {
+    #sectionOne h1 {
         font-size: 2em;
     }
 
     #sectionOne p {
-        font-size: 2em;
+        font-size: 1.5em;
+        margin-bottom: -0.7em; 
     }
 
 @media screen and (orientation: landscape) {
