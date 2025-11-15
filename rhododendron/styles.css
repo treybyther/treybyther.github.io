@@ -5,13 +5,13 @@
     }
 
     main {
-        background-color: #203013;
         color: #0b0b09;
     }
 
     body {
         padding: 0;
         margin: 0;
+        background-color: #203013;
     }
     
     header {
@@ -55,6 +55,10 @@
         padding: 4vh;
         padding-bottom: 10vh;
     }
+    
+    #sectionOne {
+        margin-top: 5vh;
+    }
 
     section p {
         font-size: 1.5em;
@@ -97,7 +101,21 @@
     }
 
     #sectionOne {
-        width: 40vw;
-        margin-left: 0;
+        width: 60vw;
+        margin-top: 5vh;
+        margin-left: 25vh;
+    }
+
+    #sectionTwo, #sectionThree, #sectionFour {
+        width: 30vw;
+    }
+
+   #sectionTwo {
+       float: right;
+   }
+
+    #sectionThree {
+        width: 55vw;
+        padding-bottom: 6.6vh; 
     }
 }
