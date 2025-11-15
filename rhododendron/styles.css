@@ -117,6 +117,16 @@
        height: 30vh;
    }
 
+   #newSection {
+    float: right;
+    width: 55vw;
+    height: 40vh;
+   }
+
+   #sectionFour {
+    height: 40vh;
+   }
+
     #sectionThree {
         width: 55vw;
         height: 30vh;
