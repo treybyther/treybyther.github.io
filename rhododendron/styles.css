@@ -56,7 +56,6 @@
         margin-bottom: 10vh;
         padding: 4vh;
         padding-bottom: 10vh;
-        border-radius: 5%;
     }
     
     #sectionOne {
@@ -121,5 +120,9 @@
     #sectionThree {
         width: 55vw;
         height: 30vh;
+    }
+
+    section {
+        border-radius: 5%;
     }
 }
