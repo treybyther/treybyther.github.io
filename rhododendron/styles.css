@@ -56,6 +56,7 @@
         margin-bottom: 10vh;
         padding: 4vh;
         padding-bottom: 10vh;
+        border-radius: 5%;
     }
     
     #sectionOne {
@@ -105,7 +106,7 @@
     #sectionOne {
         width: 60vw;
         margin-top: 5vh;
-        margin-left: 25vh;
+        margin-left: 20vw;
     }
 
     #sectionTwo, #sectionThree, #sectionFour {
