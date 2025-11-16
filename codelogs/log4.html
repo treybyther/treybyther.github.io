@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Log 3: CSS Media Queries</title>
+
+    <!-- external and internal CSS -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        main {
+            color: #0b0b09;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #301313;
+        }
+        
+        header {
+            height: 40vh;
+            width: 100vw;
+            background-color: rgb(174, 95, 95);
+            background-attachment: fixed;
+        }
+
+        #header h1 {
+            position: absolute;
+            bottom: 0;
+            left: 1em;
+            color: rgb(0, 0, 0);
+            font-size: 2.5em;
+            width: calc(100vw / 2em);
+            font-family: 'Arial', sans-serif;
+            text-transform: uppercase;
+            background-attachment: fixed;
+        }
+
+        section {
+            background-color: #f1cfcf;
+            font-family: 'Montserrat', sans-serif;
+            width: 90vw;
+            margin-left: 5vw;
+            margin-right: 5vw;
+            margin-bottom: 10vh;
+            padding: 4vh;
+            padding-bottom: 10vh;
+        }
+        
+        #sectionOne {
+            margin-top: 5vh;
+        }
+
+        section p {
+            font-size: 1.5em;
+        }
+
+        section h1 {
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+
+        #sectionOne p {
+            margin-bottom: -0.7em; 
+        }
+
+
+    @media screen and (orientation: landscape) {
+
+        #sectionOne {
+            width: 60vw;
+            margin-top: 5vh;
+            margin-left: 20vw;
+        }
+
+        section {
+            border-radius: 5%;
+        }
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="codelog3">
+        <header>
+        <h1>Code Log 3: CSS Media Queries</h1>
+        </header>
+
+        <section id="section1">
+            <h2>How does a CSS media query work, and why is it useful?</h2>
+            <p>
+                A CSS media query is aimed to allow for responsive design. Essentially, not all devices are the same
+                size. So if you set the font size of your website to a specific point size, it may not come across
+                visually as good to someone who is using a phone versus a computer. So, you use a CSS media query to
+                allow for extra coding for devices of a certain sizes. This allows your website to have responsive
+                design. It’s like an if statement, but for the size of the devices screen.
+            </p>
+        </section>
+
+        <section id="section2">
+            <h2>What "media features" are supported by media queries — such as "orientation" or "max-width" — and what
+                do they do?</h2>
+            <ul>
+                <li>Width and Height: Using the viewport width and height, you can use create sizing that will size to
+                    specific pixels of screen size. For example, if you wanted your layout to look different on a mobile
+                    device versus a laptop, you would use the width and height method to accommodate to those specific
+                    screen sizes.
+                </li>
+                <li>Orientation: similar to the width and height, the orientation is specific to if your screen is going
+                    to be in landscape or portrait mode. You are able to have specific dimensions of your attributes for
+                    someone who has their mobile device in portrait or landscape mode.
+                </li>
+                <li>“AND” logic: You can use this as an extended if statement. So for example, if you wanted a layout to
+                    be specific to an ipad in landscape mode, you could set the width and height and the orientation,
+                    and that way it would be very specific to that thing.
+                </li>
+                <li>“OR” logic: in a very similar way, you can use OR logic, in which you are stating that it could
+                    either be a specific size OR it could be in landscape.
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>
