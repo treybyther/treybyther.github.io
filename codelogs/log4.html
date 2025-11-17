@@ -77,13 +77,24 @@
     @media screen and (orientation: landscape) {
 
         #sectionOne {
-            width: 60vw;
+            width: 90vw;
             margin-top: 5vh;
-            margin-left: 20vw;
+            margin-left: 5vw;
+            margin-right: 5vw;
         }
 
         section {
-            border-radius: 5%;
+            border-radius: 10%;
+        }
+
+        #sectionOne h2 {
+            float: left;
+            width: calc(100vw/5)
+        }
+
+        #sectionOne #p1, #p2, #p3 {
+            float: right;
+            width: calc(100vw/5)
         }
     }
 
@@ -97,17 +108,19 @@
 
     <div id="codelog3">
         <header>
-        <h1>Code Log 3: CSS Media Queries</h1>
+        <h1>Code Log 4: CSS Color</h1>
         </header>
 
         <section id="sectionOne">
-            <h2>How does a CSS media query work, and why is it useful?</h2>
-            <p>
-                A CSS media query is aimed to allow for responsive design. Essentially, not all devices are the same
-                size. So if you set the font size of your website to a specific point size, it may not come across
-                visually as good to someone who is using a phone versus a computer. So, you use a CSS media query to
-                allow for extra coding for devices of a certain sizes. This allows your website to have responsive
-                design. It’s like an if statement, but for the size of the devices screen.
+            <h2>What do these CSS properties do?</h2>
+            <p id="p1">
+                color:
+            </p>
+            <p id="p2">
+                background-color:
+            </p>
+            <p id="p3">
+                border-color:
             </p>
         </section>
 
