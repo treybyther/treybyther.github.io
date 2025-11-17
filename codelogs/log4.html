@@ -15,7 +15,6 @@
 
 
     <style>
-        
         * {
             box-sizing: border-box;
         }
@@ -29,11 +28,11 @@
             margin: 0;
             background-color: #301313;
         }
-        
+
         header {
             height: 40vh;
             width: 100vw;
-            background-color: rgb(174, 95, 95);        
+            background-color: rgb(174, 95, 95);
         }
 
         h1 {
@@ -43,10 +42,10 @@
             font-size: 5em;
             font-family: 'Arial', sans-serif;
             text-transform: uppercase;
-            text-align: center; }
+            text-align: center;
+        }
 
         section {
-            background-color: #f1cfcf;
             font-family: 'Montserrat', sans-serif;
             width: 90vw;
             margin-left: 5vw;
@@ -55,13 +54,13 @@
             padding: 4vh;
             padding-bottom: 10vh;
         }
-        
+
         #sectionOne {
             margin-top: 5vh;
         }
 
         section p {
-            font-size: 1.5em;
+            font-size: 1em;
         }
 
         section h2 {
@@ -70,36 +69,51 @@
         }
 
         #sectionOne p {
-            margin-bottom: -0.7em; 
+            margin-bottom: -0.7em;
         }
 
 
-    @media screen and (orientation: landscape) {
+        @media screen and (orientation: landscape) {
 
-        #sectionOne {
-            width: 90vw;
-            margin-top: 5vh;
-            margin-left: 5vw;
-            margin-right: 5vw;
+            #sectionOne {
+                width: 90vw;
+                margin-top: 5vh;
+                margin-left: 5vw;
+                margin-right: 5vw;
+                height: 40vh;
+            }
+
+            section {
+                border-radius: 10%;
+            }
+
+            #sectionOne h2 {
+                float: left;
+                width: calc(100vw/5)
+            }
+
+            #sectionOne #p1,
+            #sectionOne #p2,
+            #sectionOne #p3 {
+                float: right;
+                width: calc(100vw/5);
+                background-color: #f1cfcf;
+            }
+
+            #sectionTwo h2 {
+                float: left;
+                width: calc(100vw/5);
+                background-color: #f1cfcf;
+            }
+
+            #sectionTwo #p1,
+            #sectionTwo #p2,
+            #sectionTwo #p3 {
+                float: right;
+                width: calc(100vw/5);
+                background-color: #f1cfcf;
+            }
         }
-
-        section {
-            border-radius: 10%;
-        }
-
-        #sectionOne h2 {
-            float: left;
-            width: calc(100vw/5)
-        }
-
-        #sectionOne #p1, #p2, #p3 {
-            float: right;
-            width: calc(100vw/5)
-        }
-    }
-
-    
-
     </style>
 
 </head>
@@ -108,43 +122,36 @@
 
     <div id="codelog3">
         <header>
-        <h1>Code Log 4: CSS Color</h1>
+            <h1>Code Log 4: CSS Color</h1>
         </header>
 
         <section id="sectionOne">
             <h2>What do these CSS properties do?</h2>
             <p id="p1">
-                color:
+                Color: This CSS property changes the color of the item that you have selected. You can change the font,
+                background, border, margin, etc.
             </p>
             <p id="p2">
-                background-color:
+                Background-color: The background color changes the color of the section's background, and it includes
+                the padding and the border, but not the margins.
             </p>
             <p id="p3">
-                border-color:
+                Border-color: This sets the border to a color, and you are able to not only set all 4 to the same, but
+                you can choose which borders are colored, and they can all have different colors.
             </p>
         </section>
 
         <section id="sectionTwo">
-            <h2>What "media features" are supported by media queries — such as "orientation" or "max-width" — and what
-                do they do?</h2>
-            <ul>
-                <li>Width and Height: Using the viewport width and height, you can use create sizing that will size to
-                    specific pixels of screen size. For example, if you wanted your layout to look different on a mobile
-                    device versus a laptop, you would use the width and height method to accommodate to those specific
-                    screen sizes.
-                </li>
-                <li>Orientation: similar to the width and height, the orientation is specific to if your screen is going
-                    to be in landscape or portrait mode. You are able to have specific dimensions of your attributes for
-                    someone who has their mobile device in portrait or landscape mode.
-                </li>
-                <li>“AND” logic: You can use this as an extended if statement. So for example, if you wanted a layout to
-                    be specific to an ipad in landscape mode, you could set the width and height and the orientation,
-                    and that way it would be very specific to that thing.
-                </li>
-                <li>“OR” logic: in a very similar way, you can use OR logic, in which you are stating that it could
-                    either be a specific size OR it could be in landscape.
-                </li>
-            </ul>
+            <h2>How does CSS accept color as a value?</h2>
+            <p id="p1">
+                Named:
+            </p>
+            <p id="p2">
+                Hexadecimal:
+            </p>
+            <p id="p3">
+                RGB:
+            </p>
         </section>
 
     </div>
