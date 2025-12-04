@@ -96,7 +96,7 @@
         }
 
         main {
-            maring-top: 5vh;
+            margin-top: 5vh;
             display: grid;
             grid-template-columns: repeat(5, calc(100% / 5));
             grid-template-rows: auto;
