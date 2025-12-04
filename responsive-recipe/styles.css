@@ -45,4 +45,26 @@
 
     @media screen and (orientation: landscape) {
         
+    #snickerdoodlePic {
+        width: calc(100vw * 2/5);
+        height: 30vh;
+    }
+
+    header {
+         display: flex;
+         margin-top: 4vw;
+    }
+
+    #Title {
+        width: calc(100vw * 3 / 5);
+        font-size: 1.5em;
+    }
+
+    #Title h1 {
+        margin-top: 0;
+        text-align: left;
+        margin-left: 3vw;
+        background-color: #e5dcd3;
+    }
+        
     }
