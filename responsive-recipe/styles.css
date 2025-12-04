@@ -1,4 +1,9 @@
-    header {
-        height: 20vh;
+    #snickerdoodlePic {
+        position: absolute;
         width: 100vw;
+        height: 30vh;
+        background-image: url("jessica-johnston-92G0voshUr0-unsplash (1).jpg");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
     }
