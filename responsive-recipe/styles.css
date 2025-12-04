@@ -1,9 +1,16 @@
     #snickerdoodlePic {
         position: absolute;
         width: 100vw;
-        height: 30vh;
+        height: auto;
         background-image: url("jessica-johnston-92G0voshUr0-unsplash (1).jpg");
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
+    }
+
+    #rhodoTitle {
+        width: 100vw;
+        height: 20vh;
+        margin-top: 30vh;
+        position: center;
     }
