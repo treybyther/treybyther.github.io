@@ -1,6 +1,10 @@
     body {
         background-color: rgb(229 220 211);
     }
+
+    #landscapeTime {
+        display: none;
+    }
     
     #snickerdoodlePic {
         width: 100%;
@@ -65,6 +69,10 @@
         text-align: left;
         margin-left: 3vw;
         background-color: #e5dcd3;
+    }
+
+    #time {
+        display: none;
     }
         
     }
