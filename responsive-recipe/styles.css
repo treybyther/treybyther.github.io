@@ -17,6 +17,7 @@
         text-transform: uppercase;
         text-align: center;
         font-weight: bold;
+        background-color: #d9d0c7;
     }
 
     #time {
@@ -24,7 +25,9 @@
         text-align: left;
         padding: 10vw;
         padding-top: 0;
+        padding-bottom: 0;
         gap: 6vw;
+        background-color: #d9d0c7;
     }
 
     #time p {
@@ -32,4 +35,10 @@
         font-family: 'Arial', sans-serif;
         width: 50vw;
         font-size: 1.5em;
+    }
+
+    #ingredients, #directions {
+        font-family: 'Arial', sans-serif;
+        padding-left: 5vw;
+        background-color: #d9d0c7;
     }
