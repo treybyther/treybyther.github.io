@@ -3,10 +3,10 @@
 /* define variables */
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: gray;
+    --nav-bkgd-color: #938456;
     --nav-text-color: white;
-    --nav-hover-bkgd-color: lightgray;
-    --nav-hover-text-color: black;
+    --nav-hover-bkgd-color: #47402a;
+    --nav-hover-text-color: #ffffff;
 }
 
 * {
@@ -16,6 +16,7 @@
 body {
     margin: 0;
     padding: var(--nav-height) 0 0 0;
+    background-color: #f0e8ce;
 }
 
 nav {
