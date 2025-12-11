@@ -161,11 +161,13 @@ body.darkMode section {
     background-color: #321a14;
 }
 
-body.darkMode #rhodoTitle {
-        width: 50vw;
-        left: 50vw;
-       background-color: #13140c;
-    }
+@media screen and (orientation: landscape) {
+    body.darkMode #rhodoTitle {
+            width: 50vw;
+            left: 50vw;
+           background-color: #13140c;
+        }
+}
 
 body.darkMode #toggleDarkMode {
     background-color: #13140c;
