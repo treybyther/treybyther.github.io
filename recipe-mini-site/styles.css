@@ -176,6 +176,10 @@ nav>ul>li>ul>li:hover a {
         background-repeat: no-repeat;
     }
 
+    #recipe-2 #snickerdoodlePic {
+        background-image: url("Fudge\ Puddles.png");
+    }
+
     #recipe-1  #Title h1,
     #recipe-2  #Title h1  {
         font-size: 2.5em;
