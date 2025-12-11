@@ -207,6 +207,10 @@ nav>ul>li>ul>li:hover a {
         background-image: url("Fudge\ Puddles.png");
     }
 
+    #recipe-2 SmoresPic {
+        background-image: url(smores\ coookies.png);
+    }
+
     #recipe-1  #Title h1,
     #recipe-2  #Title h1  {
         font-size: 2.5em;
