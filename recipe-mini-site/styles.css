@@ -167,7 +167,8 @@ nav>ul>li>ul>li:hover a {
     }
 
     #recipe-1 #snickerdoodlePic,
-    #recipe-2 #snickerdoodlePic {
+    #recipe-2 #snickerdoodlePic,
+    #recipe-2 #smoresPic {
         width: 100%;
         height: 30vh;
         background-image: url("jessica-johnston-92G0voshUr0-unsplash (1).jpg");
@@ -178,15 +179,6 @@ nav>ul>li>ul>li:hover a {
 
     #recipe-2 #snickerdoodlePic {
         background-image: url("Fudge\ Puddles.png");
-    }
-
-     #recipe-2 #smoresPic {
-        width: 100%;
-        height: 30vh;
-        background-image: url("smores\ coookies.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
     #recipe-1  #Title h1,
