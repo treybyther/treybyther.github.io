@@ -151,20 +151,23 @@ nav>ul>li>ul>li:hover a {
 
 }
 
-/* This is CSS for recipe 1, snickerdoodles */
+/* This is CSS for the recipes */
 
-    #recipe-1 body {
+    body {
         background-color: rgb(229 220 211);
     }
-    #recipe-1  footer {
+    #recipe-1  footer,
+    #recipe-2  footer {
         width: 100vw;
         text-align: center;
     }
-    #recipe-1 #landscapeTime {
+    #recipe-1 #landscapeTime, 
+    #recipe-2 #landscapeTime {
         display: none;
     }
 
-    #recipe-1 #snickerdoodlePic {
+    #recipe-1 #snickerdoodlePic,
+    #recipe-2 #snickerdoodlePic {
         width: 100%;
         height: 30vh;
         background-image: url("jessica-johnston-92G0voshUr0-unsplash (1).jpg");
@@ -173,7 +176,8 @@ nav>ul>li>ul>li:hover a {
         background-repeat: no-repeat;
     }
 
-    #recipe-1  #Title h1 {
+    #recipe-1  #Title h1,
+    #recipe-2  #Title h1  {
         font-size: 2.5em;
         font-family: 'Arial', sans-serif;
         text-transform: uppercase;
@@ -182,7 +186,8 @@ nav>ul>li>ul>li:hover a {
         background-color: #d9d0c7;
     }
 
-    #recipe-1 #time {
+    #recipe-1 #time,
+    #recipe-2 #time {
         display: flex;
         text-align: left;
         padding: 10vw;
@@ -192,7 +197,8 @@ nav>ul>li>ul>li:hover a {
         background-color: #d9d0c7;
     }
 
-    #recipe-1 #time p {
+    #recipe-1 #time p,
+    #recipe-2 #time p {
         font-weight: bold;
         font-family: 'Arial', sans-serif;
         width: 50vw;
@@ -200,7 +206,9 @@ nav>ul>li>ul>li:hover a {
     }
 
     #recipe-1 #ingredients,
-    #recipe-1 #directions {
+    #recipe-1 #directions,
+    #recipe-2 #ingredients,
+    #recipe-2 #directions {
         font-family: 'Arial', sans-serif;
         padding-left: 5vw;
         background-color: #d9d0c7;
@@ -208,22 +216,26 @@ nav>ul>li>ul>li:hover a {
 
     @media screen and (orientation: landscape) {
 
-        #recipe-1 #snickerdoodlePic {
+        #recipe-1 #snickerdoodlePic,
+        #recipe-2 #snickerdoodlePic {
             width: calc(100vw * 2/5);
             height: 30vh;
         }
 
-        #recipe-1 header {
+        #recipe-1 header,
+        #recipe-2 header {
             display: flex;
             margin-top: 4vw;
         }
 
-        #recipe-1 #Title {
+        #recipe-1 #Title
+        #recipe-2 #Title {
             width: calc(100vw * 3 / 5);
             font-size: 1.5em;
         }
 
-        #recipe-1 #Title h1 {
+        #recipe-1 #Title h1,
+        #recipe-2 #Title h1 {
             margin-top: 0;
             text-align: left;
             margin-left: 3vw;
@@ -231,10 +243,12 @@ nav>ul>li>ul>li:hover a {
             margin-bottom: 0;
         }
 
-        #recipe-1 #time {
+        #recipe-1 #time,
+        #recipe-2 #time {
             display: none;
         }
 
+        #recipe-2 #landscapeTime,
         #recipe-1 #landscapeTime {
             display: block;
             display: flex;
@@ -250,7 +264,8 @@ nav>ul>li>ul>li:hover a {
             font-size: 1.75em;
         }
 
-        #recipe-1 main {
+        #recipe-1 main,
+        #recipe-2 main  {
             margin-top: 5vh;
             display: grid;
             grid-template-columns: repeat(5, calc(100% / 5));
@@ -259,12 +274,14 @@ nav>ul>li>ul>li:hover a {
                 'ingredients ingredients directions directions directions'
         }
 
-        #recipe-1 #ingredients { 
+        #recipe-1 #ingredients,
+        #recipe-2 #ingredients { 
             grid-area: ingredients; 
             font-size: 1.5em; 
         }
         
-        #recipe-1 #directions { 
+        #recipe-1 #directions,
+        #recipe-2 #directions { 
             grid-area: directions; 
             font-size: 1.4em;
         }
