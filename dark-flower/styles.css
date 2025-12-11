@@ -139,11 +139,34 @@
 
 
 /* dark mode stuff */
+
+#toggleDarkMode {
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(181, 130, 171);
+    color: white;
+    
+}
+
 body.darkMode {
-    background-color: darkgrey;
+    background-color: #23261d;
     color: white;
 }
 
-body.darkMode h1 {
-    color: red;
+body.darkMode h1, body.darkMode p {
+    color: #ffffff;
+}
+
+body.darkMode section {
+    background-color: #321a14;
+}
+
+body.darkMode #rhodoTitle {
+        width: 50vw;
+        left: 50vw;
+       background-color: #13140c;
+    }
+
+body.darkMode #toggleDarkMode {
+    background-color: #13140c;
 }
