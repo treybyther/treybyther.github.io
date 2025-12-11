@@ -15,6 +15,27 @@
 
 main {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 3vw;
+}
+
+main h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+main h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+main img {    
+    width: 100%;
+    height: auto;
 }
 
 body {
@@ -30,6 +51,7 @@ nav {
     width: 100%;
     height: var(--nav-height);
     background-color: var(--nav-bkgd-color);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #navBurger {
