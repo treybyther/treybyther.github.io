@@ -180,6 +180,15 @@ nav>ul>li>ul>li:hover a {
         background-image: url("Fudge\ Puddles.png");
     }
 
+     #recipe-2 #smoresPic {
+        width: 100%;
+        height: 30vh;
+        background-image: url("smores\ coookies.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     #recipe-1  #Title h1,
     #recipe-2  #Title h1  {
         font-size: 2.5em;
