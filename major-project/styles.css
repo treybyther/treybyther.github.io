@@ -242,7 +242,7 @@ footer {
 
 
 .hurtSomebody, .capeElizabeth, .iWasIAm,
-.busyhead {
+.busyhead, .stickSeason {
     background-color: #130504;
     color: #e6e6e6;
     font-family: 'Fraunces', serif;
@@ -266,10 +266,15 @@ footer {
     background-color: #082e41;
 }
 
+.stickSeason {
+    background-color: #3f4033;
+}
+
 .hurtSomebody div,
 .capeElizabeth div,
 .iWasIAm div,
-.busyhead div {
+.busyhead div,
+.stickSeason div {
     width: 45vw;    
 }
 
@@ -334,6 +339,12 @@ footer {
 .busyhead .favSong:hover {
     background-color: rgb(252 215 72 / 80%);
     color: black;
+}
+.stickSeason .tracklist:hover,
+.stickSeason .facts:hover, 
+.stickSeason .thoughts:hover,
+.stickSeason .favSong:hover {
+    background-color: rgb(105 112 78 / 50%);
 }
 
 .tracklist:hover {
