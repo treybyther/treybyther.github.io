@@ -13,35 +13,39 @@
     box-sizing: border-box;
 }
 
-main {
+.home {
     font-family: 'Fraunces', serif;
     padding: 3vw;
 }
 
-main h1 {
+.home h1 {
     font-size: 3em;
     text-align: center;
 }
 
-main h2{
+.home h2{
     font-size: 2em;
     text-align: center;
 }
 
-main p{
+.home p{
     text-align: center;
     margin-bottom: 3vh;
 }
 
-main img {    
-    width: 100%;
-    height: auto;
-}
-
-body {
+.home {
     margin: 0;
     padding: var(--nav-height) 0 0 0;
     background-color: #f0e8ce;
+    height: 100vw;
+    width: 100%;
+}
+
+footer {
+    font-family: 'Fraunces', serif;
+    padding: 1vw;
+    text-align: center;
+    background-color: #9a9585;
 }
 
 nav {
