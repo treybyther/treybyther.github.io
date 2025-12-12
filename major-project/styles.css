@@ -426,40 +426,17 @@ footer {
     align-items: flex-end;
 }
 
-#lover {
-    background-image: url('lover.jpeg');
+#concert1 {
+    background-image: url("busyhead_tour.jpg")
 }
-
-#fearless {
-    background-image: url('Fearless.png');
+#concert2 {
+    background-image: url("i-was-i-am_tour.jpg")
 }
-
-#red {
-    background-image: url('Red.jpg');
+#concert3 {
+    background-image: url("The\ Stick\ Season\ Tour.png")
 }
-
-#speakNow {
-    background-image: url('Speak Now.jpg');
-}
-
-#reputation {
-    background-image: url('Reputation.jpg');
-}
-
-#folklore {
-    background-image: url('Folklore.jpg');
-}
-
-#evermore {
-    background-image: url('Evermore.jpg');
-}
-
-#nine {
-    background-image: url('1989.jpg');
-}
-
-#midnights {
-    background-image: url('midnights.jpg');
+#concert4 {
+    background-image: url("forever_tour.jpeg")
 }
 
 .concerts h2 {
