@@ -353,7 +353,7 @@ footer {
 
 /* Favorite song section */
 
-.viewBetween, .northernAttitude {
+.viewBetween, .northernAttitude, .everywhere {
     background-color: #3f4033;
     color: white;
     font-family: 'Fraunces', serif;
@@ -363,7 +363,8 @@ footer {
 }
 
 .viewBetween header,
-.northernAttitude header {
+.northernAttitude header,
+.everywhere header {
     padding-top: 10vh;
     font-size: 2.4em;
 }
