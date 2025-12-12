@@ -241,7 +241,7 @@ footer {
 
 
 
-.hurtSomebody, .capeElizabeth {
+.hurtSomebody, .capeElizabeth, .iWasIAm {
     background-color: #130504;
     color: #e6e6e6;
     font-family: 'Fraunces', serif;
@@ -257,8 +257,13 @@ footer {
     background-color: #0d282f;
 }
 
+.iWasIAm {
+    background-color: #010b14;
+}
+
 .hurtSomebody div,
-.capeElizabeth div {
+.capeElizabeth div,
+.iWasIAm div {
     width: 45vw;    
 }
 
@@ -306,6 +311,14 @@ footer {
 .capeElizabeth .thoughts:hover,
 .capeElizabeth .favSong:hover {
     background-color: rgb(12, 142, 158, 0.4);
+
+}
+
+.iWasIAm .tracklist:hover,
+.iWasIAm .facts:hover, 
+.iWasIAm .thoughts:hover,
+.iWasIAm .favSong:hover {
+    background-color: rgb(134 152 192 / 40%);
 
 }
 
