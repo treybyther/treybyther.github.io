@@ -10,6 +10,10 @@
     scroll-snap-align: center;
 }
 
+section {
+    height: 100vh;
+}
+
 #lover {
     background-image: url('lover.jpeg');
     position: absolute;
@@ -22,6 +26,7 @@
     position: absolute;
     height: 100%;
     width: auto;
+    top: 200vh;
 }
 
 #red {
@@ -29,6 +34,7 @@
     position: absolute;
     height: 100%;
     width: auto;
+    top: 300vh;
 }
 
 #speakNow {
@@ -36,6 +42,7 @@
     position: absolute;
     height: 100%;
     width: auto;
+    top: 400vh;
 }
 
 #reputation {
@@ -43,6 +50,7 @@
     position: absolute;
     height: 100%;
     width: auto;
+    top: 500vh;
 }
 
 #folklore {
@@ -50,6 +58,7 @@
     position: absolute;
     height: 100%;
     width: auto;
+    top: 600vh;
 }
 
 #evermore {
@@ -57,6 +66,7 @@
     position: absolute;
     height: 100%;
     width: auto;
+    top: 600vh;
 }
 
 #nine {
@@ -64,6 +74,7 @@
     position: absolute;
     height: 100%;
     width: auto;
+    top: 700vh;
 }
 
 #midnights {
@@ -71,4 +82,5 @@
     position: absolute;
     height: 100%;
     width: auto;
+    top: 900vh;
 }
