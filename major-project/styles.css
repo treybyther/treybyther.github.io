@@ -241,7 +241,7 @@ footer {
 
 
 
-.hurtSomebody {
+.hurtSomebody, .capeElizabeth {
     background-color: #130504;
     color: #e6e6e6;
     font-family: 'Fraunces', serif;
@@ -253,7 +253,12 @@ footer {
     width: 100%;
 }
 
-.hurtSomebody div{
+.capeElizabeth {
+    background-color: #0d282f;
+}
+
+.hurtSomebody div,
+.capeElizabeth div {
     width: 45vw;    
 }
 
@@ -293,6 +298,14 @@ footer {
         line-height: 5vh;
     }
     background-color: rgba(23, 121, 113, 0.5);
+
+}
+
+.capeElizabeth .tracklist:hover,
+.capeElizabeth .facts:hover, 
+.capeElizabeth .thoughts:hover,
+.capeElizabeth .favSong:hover {
+    background-color: rgb(12, 142, 158, 0.4);
 
 }
 
