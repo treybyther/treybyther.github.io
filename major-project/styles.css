@@ -407,3 +407,70 @@ footer {
     font-size: 1.5em;
     transition: 1s;
 }
+
+#images {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.concerts section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: flex-end;
+}
+
+#lover {
+    background-image: url('lover.jpeg');
+}
+
+#fearless {
+    background-image: url('Fearless.png');
+}
+
+#red {
+    background-image: url('Red.jpg');
+}
+
+#speakNow {
+    background-image: url('Speak Now.jpg');
+}
+
+#reputation {
+    background-image: url('Reputation.jpg');
+}
+
+#folklore {
+    background-image: url('Folklore.jpg');
+}
+
+#evermore {
+    background-image: url('Evermore.jpg');
+}
+
+#nine {
+    background-image: url('1989.jpg');
+}
+
+#midnights {
+    background-image: url('midnights.jpg');
+}
+
+.concerts h2 {
+    color: white;
+    font-family: sans-seriff;
+    font-size: 3em;
+    padding: 0.5em 1em;
+    margin: 0;
+    position: center;
+    background-color: black;
+    width: 100%
+}
+    
+
