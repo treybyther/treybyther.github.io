@@ -1,0 +1,11 @@
+#images {
+   width: 500px;
+   height: 80vh;
+   overflow: auto;
+   scroll-snap-type: y proximity; 
+}
+
+#images img {
+    width: 100%;
+    scroll-snap-align: center;
+}
