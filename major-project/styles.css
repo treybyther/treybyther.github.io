@@ -239,6 +239,14 @@ footer {
     color: black;
 }
 
-.hurtSomebody .albumcover {
-    background-image: url("hurt-somebody_cover.jpg")
+
+.hurtSomebody > div {
+    width: 45%;     
+}
+
+.hurtSomebody .albumcover img {
+    width: 100%;               
+    height: auto; 
+    text-align: center;
+    transition: 1s;                
 }
