@@ -238,3 +238,7 @@ footer {
     background-color: #91836f;
     color: black;
 }
+
+.hurtSomebody .albumcover {
+    background-image: url("hurt-somebody_cover.jpg")
+}
