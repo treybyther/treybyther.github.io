@@ -1,11 +1,74 @@
 #images {
-   width: 500px;
-   height: 80vh;
-   overflow: auto;
-   scroll-snap-type: y proximity; 
+    width: 500px;
+    height: 80vh;
+    overflow: auto;
+    scroll-snap-type: y proximity;
 }
 
 #images img {
     width: 100%;
     scroll-snap-align: center;
+}
+
+#lover {
+    background-image: url('lover.jpeg');
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+#fearless {
+    background-image: url('Fearless.png');
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+#red {
+    background-image: url('Red.jpg');
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+#speakNow {
+    background-image: url('Speak\ Now.jpg');
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+#reputation {
+    background-image: url('Reputation.jpg');
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+#folklore {
+    background-image: url('Folklore.jpg');
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+#evermore {
+    background-image: url('Evermore.jpg');
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+#nine {
+    background-image: url('1989.jpg');
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+#midnights {
+    background-image: url('midnights.jpg');
+    position: absolute;
+    height: 100%;
+    width: auto;
 }
