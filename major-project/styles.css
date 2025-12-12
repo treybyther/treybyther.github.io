@@ -240,13 +240,58 @@ footer {
 }
 
 
-.hurtSomebody > div {
-    width: 45%;     
+
+.hurtSomebody {
+    background-color: #130504;
+    color: #e6e6e6;
+    font-family: 'Fraunces', serif;
+    padding: 3vw;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1vw;
+    align-items: flex-start;
+    width: 100%;
 }
 
-.hurtSomebody .albumcover img {
+.hurtSomebody div{
+    width: 45vw;'    
+}
+
+.tracklist ul {
+    list-style: none;
+    line-height: 4vh;
+    font-size: 1.3em;
+}
+
+.tracklist {
+    text-align: right;
+    transition: 1s;
+}
+
+.albumcover img {
     width: 100%;               
     height: auto; 
     text-align: center;
-    transition: 1s;                
+    transition: 1s;
+    display: block;
+}
+
+.facts, .thoughts, .favSong {
+    list-style: none;
+    line-height: 4vh;
+    font-size: 1.3em;
+    transition: 1s;
+}
+
+.tracklist:hover,
+.facts:hover, 
+.thoughts:hover,
+.favSong:hover {
+    font-size: 1.7em;
+    transition: 1s;
+    ul {
+        line-height: 5vh;
+    }
+    background-color: #17797180;
+
 }
