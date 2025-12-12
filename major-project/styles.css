@@ -3,10 +3,10 @@
 /* define variables */
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: #938456;
+    --nav-bkgd-color: #322e23;
     --nav-text-color: white;
-    --nav-hover-bkgd-color: #47402a;
-    --nav-hover-text-color: #ffffff;
+    --nav-hover-bkgd-color: #c7b59a;
+    --nav-hover-text-color: black;
 }
 
 * {
@@ -170,7 +170,7 @@ nav>ul>li>ul>li:hover a {
 .home {
     margin: 0;
     padding: var(--nav-height) 0 0 0;
-    background-color: #f0e8ce;
+    background-color: #c7b59a;
     height: 100vw;
     width: 100%;
 }
@@ -182,18 +182,30 @@ footer {
     background-color: #9a9585;
 }
 
-.albums img{
-    width: 20%;
-    display: flex;                  
-    flex-wrap: wrap;
+.albums h2 {
+    width: 100%;
 }
 
-.albums p {
-    display: flex;  
-    flex-wrap: wrap; 
+.albums {
+    display: flex;            
+    justify-content: space-between; 
+    flex-wrap: wrap;          
+    gap: 10px;                
+}
+
+.album {
     text-align: center;
-    margin: 0;
-    width: 20%; 
-    padding: 1.5vw;
-    background-color: #938456;
+    transition: 1s;
+    width: 18%;               
+}
+
+.album img {
+    width: 100%;               
+    height: auto;             
+}
+
+.album:hover {
+    transition: 1s;
+    font-size: 2em;
+    width: 20%;
 }
