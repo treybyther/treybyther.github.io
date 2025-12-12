@@ -16,8 +16,6 @@ section {
     align-items: flex-end;
 }
 
-/* No absolute positioning needed */
-
 #lover {
     background-image: url('lover.jpeg');
 }
@@ -67,6 +65,7 @@ main h2 {
     margin: 0;
     position: center;
     background-color: black;
+    width: 100%
 }
     
 
