@@ -1,86 +1,72 @@
 #images {
-    width: 500px;
-    height: 80vh;
-    overflow: auto;
-    scroll-snap-type: y proximity;
-}
-
-#images img {
-    width: 100%;
-    scroll-snap-align: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 section {
+    width: 100%;
     height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    scroll-snap-align: start;
+    display: flex;
+    align-items: flex-end;
 }
+
+/* No absolute positioning needed */
 
 #lover {
     background-image: url('lover.jpeg');
-    position: absolute;
-    height: 100%;
-    width: auto;
 }
 
 #fearless {
     background-image: url('Fearless.png');
-    position: absolute;
-    height: 100%;
-    width: auto;
-    top: 200vh;
 }
 
 #red {
     background-image: url('Red.jpg');
-    position: absolute;
-    height: 100%;
-    width: auto;
-    top: 300vh;
 }
 
 #speakNow {
-    background-image: url('Speak\ Now.jpg');
-    position: absolute;
-    height: 100%;
-    width: auto;
-    top: 400vh;
+    background-image: url('Speak Now.jpg');
 }
 
 #reputation {
     background-image: url('Reputation.jpg');
-    position: absolute;
-    height: 100%;
-    width: auto;
-    top: 500vh;
 }
 
 #folklore {
     background-image: url('Folklore.jpg');
-    position: absolute;
-    height: 100%;
-    width: auto;
-    top: 600vh;
 }
 
 #evermore {
     background-image: url('Evermore.jpg');
-    position: absolute;
-    height: 100%;
-    width: auto;
-    top: 600vh;
 }
 
 #nine {
     background-image: url('1989.jpg');
-    position: absolute;
-    height: 100%;
-    width: auto;
-    top: 700vh;
 }
 
 #midnights {
     background-image: url('midnights.jpg');
-    position: absolute;
-    height: 100%;
-    width: auto;
-    top: 900vh;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main h2 {
+    color: white;
+    font-family: sans-seriff;
+    font-size: 3em;
+    padding: 0.5em 1em;
+    margin: 0;
+    position: center;
+    background-color: black;
+}
+    
+
